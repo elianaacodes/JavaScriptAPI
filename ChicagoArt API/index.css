@@ -1,0 +1,60 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(252, 252, 252);
+  }
+  
+
+  .header {
+    text-align: center;
+  }
+  
+
+  p {
+    margin-bottom: 1rem;
+  }
+  
+
+  .gallery_1, .gallery_2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+ 
+  .container_a {
+    width: 400px;
+    height: 600px;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .container_a img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  
+  /* Style the artist header */
+  .artist_header {
+    margin-top: 2rem;
+    text-align: center;
+    text-decoration: underline;
+  }
+  
+  
+  
+  .container_a div {
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    margin-top: 1rem;
+  }
+  
+ 
+  .container_a div a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+  }
+  
